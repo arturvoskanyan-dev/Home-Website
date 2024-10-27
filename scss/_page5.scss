@@ -1,0 +1,75 @@
+.page5 {
+    background-color: rgb(240, 236, 230);
+    margin-top: 10vmax;
+
+    .page5-h2 {
+        margin-bottom: 5vmax;
+        text-align: center;
+        padding-top: 5vmax;
+
+        h2 {
+            color: #2B1B12;
+            font-weight: 800;
+        }
+    }
+
+    .page5-menu {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+        .page5-img img {
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+            margin-top: 30px;
+        }
+
+        .page5-text {
+            width: 382px;
+            height: auto;
+            background-color: rgb(218, 188, 171);
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 8px;
+            padding-bottom: 3%;
+
+            img {
+                margin-left: 2vmax;
+            }
+
+            span {
+                color: #2B1B12;
+                font-weight: 700;
+                font-size: 18px;
+            }
+
+            p {
+                color: #4F3527;
+                font-weight: bold;
+                width: 85%;
+                margin-left: 2vmax;
+            }
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .page5-menu {
+        width: 100px;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+}
+
+@media (max-width: 320px) {
+    .page5-menu {
+
+        .page-img-img {
+            width: 90% !important;
+        }
+
+        .page5-img > .page5-text {
+            width: 50vmax !important;
+        }
+    }
+}
+

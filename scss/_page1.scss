@@ -1,0 +1,66 @@
+.page1 {
+    display: flex;
+    margin-top: 8vmax;
+    margin-left: 4.5vmax;
+    margin-right: 1.5vmax;
+
+    .page1-text h1 {
+        color: #2B1B12;
+        font-size: 4vmax;
+        font-weight: bold;
+    }
+
+    .page1-text p {
+        width: 60%;
+        color: #4F3527;
+        font-weight: bold;
+    }
+    
+    .page1-text button {
+        width: 122px;
+        height: 48px;
+        background-color: #2b1b12;
+        color: #fff;
+        border-radius: 8px;
+        border: 0;
+    }
+
+    .page1-img img {
+        width: 1100px;
+    }
+}
+
+@media (max-width: 900px) {
+    .page1 {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-right: 10%;
+    }
+    
+    .page1-text {
+        text-align: center;
+
+        p {
+            margin-left: 25%;/*6*/
+        }
+    }
+}
+
+@media (max-width: 950px) and (max-height: 500px) {
+    .page1 {
+        margin-top: 3vmax;
+    }
+}
+
+@media (max-width: 900px) and (max-height: 420px) {
+    .page1 {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 888px) and (max-height: 647px) {
+    .page1-img img {
+        width: 100px;
+    }
+}

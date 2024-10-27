@@ -1,0 +1,76 @@
+.page4 {
+    margin-top: 10vmax;
+
+    .page4-h2 {
+        margin-bottom: 5vmax;
+        text-align: center;
+
+        h2 {
+            color: #2B1B12;
+            font-weight: 800;
+        }
+    }
+
+    .page4-menu {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+        .page4-img img {
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+            margin-top: 30px;
+        }
+
+        .page4-text {
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 8px;
+            background-color: rgb(218, 188, 171);
+            padding-bottom: 5%;
+
+            h5 {
+                color: #2B1B12;
+                font-weight: 700;
+                padding-top: 1.5vmax;
+                padding-left: 2vmax;
+            }
+
+            span {
+                color: #4F3527;
+                font-weight: 700;
+                padding-top: 1.5vmax;
+                padding-left: 2vmax;
+            }
+
+            button {
+                width: 122px;
+                height: 48px;
+                background-color: #2b1b12;
+                color: #fff;
+                border-radius: 8px;
+                border: 0;
+                margin-top: 1vmax;
+            }
+
+            a {
+                color: #2B1B12;
+                font-weight: 700;
+                font-size: 22px;
+                margin-left: 4vmax;
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .page4-menu {
+        margin-left: 3%;
+    }
+}
+
+
+@media (max-width: 340px) and (max-height: 600px) {
+    .page4-menu {
+        margin-left: 5%;
+    }
+}
